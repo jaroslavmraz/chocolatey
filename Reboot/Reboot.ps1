@@ -1,28 +1,58 @@
  
-<#
-  .SYNOPSIS
+
+<#PSScriptInfo
+
+.VERSION 1.0
+
+.GUID 591ad953-a301-4926-a8e7-b1a47d00ea60
+
+.AUTHOR Jaroslav Mráz
+
+.COMPANYNAME
+
+.COPYRIGHT
+
+.TAGS
+
+.LICENSEURI
+
+.PROJECTURI
+  https://github.com/jaroslavmraz/chocolatey/tree/main/Reboot
+
+
+.ICONURI
+
+.EXTERNALMODULEDEPENDENCIES 
+
+.REQUIREDSCRIPTS
+
+.EXTERNALSCRIPTDEPENDENCIES
+
+.RELEASENOTES
+
+
+.PRIVATEDATA
+<# 
+
+.DESCRIPTION 
+   The reboot.ps1 script alow you easy reboot system same way as on Linux. 
+
+   
+.SYNOPSIS
   Reboot computer.
 
-  .DESCRIPTION
-  The reboot.ps1 script alow you easy reboot system same way as on Linux.
-
-  .PARAMETER InputPath
+.PARAMETER InputPath
    -pospone - pospone reboot for 30 secconds
    -force - force reboot  
 
   
-  .EXAMPLE
-  PS> .\reboot.ps1
+.EXAMPLE
+  PS> .\reboot.ps1 -pospone -force
+ 
+#> 
 
-  .EXAMPLE
-  PS> .\reboot.ps1 -force
 
-  .EXAMPLE
-  PS> .\reboot -force -popsone
 
-  .AUTHOR
-    Written by: Jaroslav Mráz
-#>
 
 
 
